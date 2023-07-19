@@ -8,7 +8,7 @@
   }
   
   .project h1 {
-    margin-top: 80px;
+    margin-top: 20px;
     color: #3e497a;
     font-size: 30px;
   }
@@ -26,3 +26,16 @@
     font-size: 60px;
     color: #3e497a;
   }
+  
+
+/* Media Query for small screens */
+@media screen and (max-width: 767px) {
+  .project img {
+    width: 300px;
+    /* Optionally, you can also center the image within its container */
+    margin: 0 auto;
+  }
+  .project p {
+    font-size: 20px;
+  }
+}

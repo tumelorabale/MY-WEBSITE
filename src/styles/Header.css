@@ -1,7 +1,7 @@
 .Header{
     width: auto;
     height: a;
-    background: #21325e;
+    background:#2d2446;
     display: flex-start;
     justify-content: center;
     align-items: center;
@@ -48,3 +48,8 @@
     color: aqua;
 
 }
+@media (max-width: 768px) {
+    .Header {
+      display: none;
+    }
+  }

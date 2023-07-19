@@ -9,10 +9,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <InstagramIcon className="insta" />
+        <TwitterIcon className="twiter" />
+        <FacebookIcon className="facebook" />
+        <LinkedInIcon className="linkedin" />
       </div>
       <p> &copy; 2023 tumelorabale.com</p>
     </div>

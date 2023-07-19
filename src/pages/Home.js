@@ -1,18 +1,19 @@
 import React from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GithubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
+
+const redirectToLinkedIn = () => {
+  window.location.href = 'https://www.linkedin.com/in/tumelo-rabale-01a5b627a';
+};
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Tumelo Rabale</h2>
+        <div><h2> "Hi, My Name is Tumelo Rabale"</h2></div>
         <div className="prompt">
           <p>I am Front-End developer with passion for 
           creating engaging and interactive web experiences.</p>
-          <LinkedInIcon />
-          <GithubIcon />
+          <button className="button" onClick={redirectToLinkedIn}><b>Go to Linkedin</b></button>
         </div>
       </div>
       <div className="skills">
