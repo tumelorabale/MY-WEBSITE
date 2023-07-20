@@ -4,12 +4,12 @@
     background:#2d2446;
     display: flex-start;
     justify-content: center;
+
     align-items: center;
     flex-direction: column;
     column-gap: 20px;
-    color: aliceblue;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
     padding-top: 1%;
     padding-left: 60px;
 
@@ -24,13 +24,13 @@
 #cell{
     display: flex;
     flex-direction: row;
-    color: aqua;
+    color: rgb(255, 255, 255);
     column-gap: 10px;
 }
 #email{
     display: flex;
     flex-direction: row;
-    color: aqua;
+    color: rgb(255, 255, 255);
     column-gap: 10px;
 }
 
@@ -39,17 +39,16 @@
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    color: aqua;
+    color: rgb(255, 255, 255);
     column-gap: 10px;
     font-size: medium;
 }
 .tag{
     text-decoration: none;
-    color: aqua;
+    color: rgb(255, 255, 255);
 
 }
 @media (max-width: 768px) {
-    .Header {
-      display: none;
-    }
+  
   }
+  
