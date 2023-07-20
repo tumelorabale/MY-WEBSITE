@@ -6,6 +6,11 @@ import "../styles/ProjectDisplay.css";
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
+
+  const projectLink = () => {
+    window.location.href = project.link;
+  };
+   
   return (
     <div className="project">
       <h1> {project.name}</h1>
@@ -13,8 +18,8 @@ function ProjectDisplay() {
       <p>
          <b>{project.skills}</b>
       </p>
-      <p>description
-      </p>
+        <button className="button-3" onClick={projectLink}>Open the project</button>
+      <p>{project.description}</p>
     </div>
   );
 }
