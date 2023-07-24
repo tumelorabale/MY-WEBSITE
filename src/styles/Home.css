@@ -47,8 +47,8 @@
     align-items: center;
     padding-top: 0;
     background-color: #ffffff;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
   
   .skills h1 {

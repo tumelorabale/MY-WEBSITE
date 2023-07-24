@@ -2,7 +2,6 @@ import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/movies.jpg";
 
 
-
 export const ProjectList = [
   {
     name: "Todo-App",
